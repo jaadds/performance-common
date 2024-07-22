@@ -54,28 +54,23 @@
     </modules>
 
     <repositories>
-        <repository>
-            <id>jcenter</id>
-            <name>bintray</name>
-            <url>http://jcenter.bintray.com</url>
-        </repository>
-    <repository>
-        <id>wso2.releases</id>
-        <url>https://maven.wso2.org/nexus/content/repositories/releases/</url>
-    </repository>
-    <repository>
-        <id>wso2.snapshots</id>
-        <url>https://maven.wso2.org/nexus/content/repositories/snapshots/</url>
-    </repository>
-    <repository>
-        <id>wso2-nexus</id>
-        <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
-    </repository>
-    <repository>
-        <id>jcenter</id>
-        <url>https://jcenter.bintray.com/</url>
-    </repository>
-</repositories>
+      <repository>
+          <id>wso2.releases</id>
+          <url>https://maven.wso2.org/nexus/content/repositories/releases/</url>
+      </repository>
+      <repository>
+          <id>wso2.snapshots</id>
+          <url>https://maven.wso2.org/nexus/content/repositories/snapshots/</url>
+      </repository>
+      <repository>
+          <id>wso2-nexus</id>
+          <url>https://maven.wso2.org/nexus/content/groups/wso2-public/</url>
+      </repository>
+      <repository>
+          <id>jcenter</id>
+          <url>https://jcenter.bintray.com/</url>
+      </repository>
+    </repositories>
 
 
     <dependencyManagement>
